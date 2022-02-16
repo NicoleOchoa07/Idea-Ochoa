@@ -14,6 +14,7 @@ body {
 main {
   background-color: rgb(22, 166, 255)
 }
+/*
 @media screen and (min-width: 600px) {
 header div {
   display: flex;
@@ -127,6 +128,7 @@ h1, p,.Resumen1, .Resumen2, .Resumen3 {
   height: 150px;
 }
 /*Footer*/
+/*
 .Footer {
   display: grid;
   grid-template-columns: 25% 25% 25%;
@@ -159,6 +161,7 @@ h1, .box ,.Celda1, .Celda2, .Celda3 {
   display: inline;
 }
 /*mainProductos*/
+/*
 #ImagenProductos{
   display: flex;
   justify-content: center;
@@ -292,7 +295,8 @@ line-height: 5px;
 .Titulo2{
   padding-left: 60px;
 }
-/*Footer*/
+/*Footer*/ 
+/*
 .Celda1 {
   font-size: 15px;
   line-height: 1.6;
@@ -301,7 +305,7 @@ line-height: 5px;
   width: 75px;
   padding-left: 50px;
 }
-/*MainProductos*/
+/*MainProductos*//*
 .ArticuloJPG {
   width: 100px;
   height: 100px;
@@ -329,4 +333,5 @@ article h3 p{
   padding-bottom:10px;
   border: solid 0.5px black;
   row-gap: 5fr;}
-}
+} 
+*/

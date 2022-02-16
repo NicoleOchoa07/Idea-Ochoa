@@ -11,6 +11,7 @@ body {
   font-family: "Source Sans Pro", sans-serif;
   background-color: rgb(238, 255, 0);
 }
+/*
 main {
   background-color: rgb(22, 166, 255)
 }
@@ -119,7 +120,7 @@ h1, p,.Resumen1, .Resumen2, .Resumen3 {
   background-image: url('html/Imagenes/Fondo.jpg');
   height: 150px;
 }
-/*Footer*/
+/*Footer*//*
 .Footer {
   display: grid;
   grid-template-columns: 25% 25% 25%;
@@ -151,7 +152,7 @@ h1, .box ,.Celda1, .Celda2, .Celda3 {
   padding-top: 100px;
   display: inline;
 }
-/*mainProductos*/
+/*mainProductos*//*
 #ImagenProductos{
   display: flex;
   justify-content: center;
@@ -223,7 +224,7 @@ h1, .box ,.Celda1, .Celda2, .Celda3 {
 .ContactoMain{
   display: inline;
 }
-/*Animation en seciones 2-6*/
+/*Animation en seciones 2-6*//*
 .Animation {
   animation-duration: 2s;;
   animation-name: aparecer;
@@ -289,7 +290,7 @@ line-height: 5px;
 .Titulo2{
   padding-left: 60px;
 }
-/*Footer*/
+/*Footer*//*
 .Celda1 {
   font-size: 15px;
   line-height: 1.6;
@@ -298,7 +299,7 @@ line-height: 5px;
   width: 75px;
   padding-left: 50px;
 }
-/*MainProductos*/
+/*MainProductos*//*
 .ArticuloJPG {
   width: 100px;
   height: 100px;
@@ -327,5 +328,5 @@ article h3 p{
   border: solid 0.5px black;
   row-gap: 5fr;}
 }
-
+*/
 
