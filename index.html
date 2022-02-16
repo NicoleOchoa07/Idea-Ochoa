@@ -10,7 +10,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-<!--<link rel="stylesheet" href="style.css">-->
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="html/css/animate.min.css">
     <style>
         section
@@ -37,17 +37,17 @@
 <body>
     <header>
         <div class="container-fluid">
-            <div id="ImagenHeader"><img class="rounded mx-auto d-block" src="html/Imagenes/Logo.jpg" alt="Texto resaltado"></div>
-            <nav id="Navegador navbar navbar-light justify-content-between p-3 mt-3">
-                <ul class="list-inline list-unstyled text-center"> 
-                   <li class="list-inline-item list-unstyled-item"><a href="index.html" target="_blank">Home</a></li>
-                   <li class="list-inline-item list-unstyled-item"><a href="html/Productos.html" target="_blank">Productos</a></li>
-                   <li class="list-inline-item list-unstyled-item"><a href="html/QS.html" target="_blank">Quienes Somos</a></li>
-                   <li class="list-inline-item list-unstyled-item"><a href="html/PF.html" target="_blank">Preguntas Frecuentes</a></li>
-                   <li class="list-inline-item list-unstyled-item"><a href="html/Contacto.html" target="_blank">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>    
+            <div id="ImagenHeader"><img class="rounded mx-auto d-block" src="html/Imagenes/Logo.jpg" alt="Texto resaltado"></div> 
+            <nav id="Navegador navbar navbar-light justify-content-between p-3 mt-3 ">
+                 <ul class="list-inline text-center nav nav-pills nav-fill"> 
+                   <li class="list-inline-item fs-4 nav-item"><a class="link-dark nav-link" href="index.html" target="_blank">Home</a></li>
+                   <li class="list-inline-item fs-4 nav-item"><a class="link-dark nav-link" href="Productos.html" target="_blank">Productos</a></li>
+                   <li class="list-inline-item fs-4 nav-item"><a class="link-dark nav-link" href="QS.html" target="_blank">Quienes Somos</a></li>
+                   <li class="list-inline-item fs-4 nav-item"><a class="link-dark nav-link" href="PF.html" target="_blank">Preguntas Frecuentes</a></li>
+                   <li class="list-inline-item fs-4 nav-item"><a class="link-dark nav-link" href="Contacto.html" target="_blank">Contacto</a></li>
+                 </ul>
+             </nav>
+         </div>     
     </header>
     <main id="main">
         <div class="container-fluid">
@@ -86,74 +86,104 @@
                 </button>
               </div>
             <br></br>
-            <section class="ResumenInicio">
-                <article class="Resumen">
-                  <h1 class="Titulo1 wow animate__animated animate__fadeInDown text-center">Quienes somos</h1>
-                  <p class="Resumen1 wow animate__animated animate__fadeInDown text-center">Lorem ipsum dolor sit amet, consectetur adipiscing...<a href="html/QS.html" target="_blank" class="wow animate__animated animate__fadeInDown">Más info</a></p>
-                </article>
-                <article>
-                  <h1 class="Titulo2 wow animate__animated animate__fadeInDown text-center" >Preguntas Frecuentes</h1>
-                  <p class="Resumen2 wow animate__animated animate__fadeInDown text-center">Lorem ipsum dolor sit amet, consectetur adipiscing...<a href="html/PF.html" target="_blank" class="wow animate__animated animate__fadeInDown">Más info</a></p>
-                </article>
-                <article>
-                  <h1 class="Titulo3 wow animate__animated animate__fadeInDown text-center">Contacto</h1>
-                  <p class="Resumen3 wow animate__animated animate__fadeInDown text-center">Lorem ipsum dolor sit amet, consectetur adipiscing...<a href="html/Contacto.html" target="_blank" class="wow animate__animated animate__fadeInDown">Más info</a></p>
-                </article>
-            </section>
+            <br></br>
+            <br></br>
+            <!--section-- class="ResumenInicio"-->
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-xl-4"> 
+                    <article class="Resumen">
+                       <h1 class="Titulo1 wow animate__animated animate__fadeInDown text-center">Quienes somos</h1>
+                       <p class="Resumen1 wow animate__animated animate__fadeInDown text-center">Lorem ipsum dolor sit amet, consectetur adipiscing...<a href="html/QS.html" target="_blank" class="wow animate__animated animate__fadeInDown">Más info</a></p>
+                   </article>
+                </div>
+                <div class="col-sm-12 col-md-6 col-xl-4">
+                   <article>
+                       <h1 class="Titulo2 wow animate__animated animate__fadeInDown text-center" >Preguntas Frecuentes</h1>
+                       <p class="Resumen2 wow animate__animated animate__fadeInDown text-center">Lorem ipsum dolor sit amet, consectetur adipiscing...<a href="html/PF.html" target="_blank" class="wow animate__animated animate__fadeInDown">Más info</a></p>
+                </article> 
+                </div>
+                <div class="col-sm-12 col-md-6 col-xl-4">
+                    <article>
+                       <h1 class="Titulo3 wow animate__animated animate__fadeInDown text-center">Contacto</h1>
+                       <p class="Resumen3 wow animate__animated animate__fadeInDown text-center">Lorem ipsum dolor sit amet, consectetur adipiscing...<a href="html/Contacto.html" target="_blank" class="wow animate__animated animate__fadeInDown">Más info</a></p>
+                    </article>
+                </div>
+            </div>
+            <!--/section-->
             <br></br>
             <br></br>
         </div>
     </main>
     <hr/>
     <footer class="footer">
-        <div class="container-fluid">
-            <section class="Footer">
-                <div class="Celda container-fluid">
-                    <ul class="Celda1 list-unstyled">
-                        <li class="list-unstyled-item">
-                            <h1 class="Celda1">Nos podes encontrar tambien en...</h1>
-                            <ul class="box list-unstyled">
-                                <li class="list-unstyled-item"><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
-                                <li class="list-unstyled-item"><a href="https://es-la.facebook.com/" target="_blank">Facebook</a></li> 
+        <div class="Footer container-fluid">
+            <div class="row">
+                <div class="Celda container-fluid col-sm-12 col-md-6 col-xl-4">
+                    <ul class="Celda1 list-unstyled nav flex-column">
+                        <li class="list-unstyled-item nav flex-column">
+                            <h1 class="Celda1 fs-5">Nos podes encontrar tambien en...</h1>
+                            <ul class="box list-unstyled nav flex-column">
+                               <li class="list-unstyled-item nav-item"><a class="link-dark nav-link" href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                               <li class="list-unstyled-item nav-item"><a class="link-dark nav-link" href="https://es-la.facebook.com/" target="_blank">Facebook</a></li> 
                             </ul>
                         </li>
                     </ul>   
                 </div>
-                <div class=" Celda2 container-fluid">
+                <div class="Celda2 container-fluid col-sm-12 col-md-6 col-xl-4">
                     <nav id="Navegador navbar navbar-light justify-content-between p-3 mt-3">
-                        <ul class="list-unstyled"> 
-                           <li class="list-unstyled-item"><a href="html/Productos.html" target="_blank">Productos</a></li>
-                           <li class="list-unstyled-item"><a href="html/QS.html" target="_blank">Quienes Somos</a></li>
-                           <li class="list-unstyled-item"><a href="html/PF.html" target="_blank">Preguntas Frecuentes</a></li>
-                           <li class="list-unstyled-item"><a href="html/Contacto.html" target="_blank">Contacto</a></li>
-                           <li class="list-unstyled-item"><a href="html/TyC.html" target="_blank">Terminos y Condiciones de uso</a></li>
+                        <ul class="list-unstyled nav flex-column"> 
+                           <li class="list-unstyled-item nav-item"><a class="link-dark nav-link" href="html/Productos.html" target="_blank">Productos</a></li>
+                           <li class="list-unstyled-item nav-item"><a class="link-dark nav-link" href="html/QS.html" target="_blank">Quienes Somos</a></li>
+                           <li class="list-unstyled-item nav-item"><a class="link-dark nav-link" href="html/PF.html" target="_blank">Preguntas Frecuentes</a></li>
+                           <li class="list-unstyled-item nav-item"><a class="link-dark nav-link" href="html/Contacto.html" target="_blank">Contacto</a></li>
+                           <li class="list-unstyled-item nav-item"><a class="link-dark nav-link" href="html/TyC.html" target="_blank">Terminos y Condiciones de uso</a></li>
                         </ul>
                     </nav>
                 </div>
-                <div>
-                    <form class="Celda3">
+                <div class="col-sm-12 col-md-6 col-xl-4">
+                    <!--form class="Celda3">
                         <fieldset>
-                            <legend>Formulario de Contacto</legend>
-                            <label for="Nombre:">Nombre:</label>
-                            <input type="text" placeholder="Ingrese su nombre" id="Nombre">
-                            <br><br>
-                            <label for="E-mail:">E-mail:</label>
-                            <input type="text" placeholder="E-mail" id="E-mail">
-                            <br><br>
-                            <label for="Mensaje:">Mensaje:</label>
-                            <br><br>
-                            <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                            <br><br>
-                            <input type="submit" value="Enviar formulario">
-                            <input type="reset" value="Limpiar formulario">
+                          <legend>Formulario de Contacto</legend>
+                          <label for="Nombre:">Nombre:</label>
+                          <input type="text" placeholder="Ingrese su nombre" id="Nombre">
+                          <br></br>
+                          <label for="E-mail:">E-mail:</label>
+                          <input type="text" placeholder="E-mail" id="E-mail">
+                          <br></br>
+                          <label for="Mensaje:">Mensaje:</label>
+                          <br></br>
+                          <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                          <br></br>
+                          <input type="submit" value="Enviar formulario">
+                          <input type="reset" value="Limpiar formulario">
                         </fieldset>
+                    </form-->
+                    <form>
+                        <div class="row mb-3">
+                            <label for="colFormLabel" class="col-sm-2 col-form-label">Nombre:</label>
+                            <div class="col-sm-10">
+                              <input type="email" class="form-control" id="colFormLabel" placeholder="Ingrese nombre...">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="colFormLabel" class="col-sm-2 col-form-label">Email:</label>
+                            <div class="col-sm-10">
+                              <input type="email" class="form-control" id="colFormLabel" placeholder="Ingrese correo...">
+                            </div>
+                        </div>
+                        <div class="form-floating">
+                            <label for="floatingTextarea"></label>
+                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea">Texto:</textarea>
+                        </div>
+                        <br></br>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
                     </form>
                 </div>
-            </section>
-            <br><br>
-            <br><br>
+            </div>
+            <br></br>
+            <br></br>
             <div class="Copyright"> 
-                <p>Copyright © ProApuntes 2022</p>
+             <p>Copyright © ProApuntes 2022</p>
             </div>
         </div>
     </footer>
